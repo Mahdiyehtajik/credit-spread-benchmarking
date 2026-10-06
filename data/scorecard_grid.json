@@ -1,0 +1,11 @@
+{
+  "_note": "Illustrative corporate scorecard in the spirit of agency industrial methodologies. Thresholds are the boundary values of each rating bucket (AAA ... CCC); the score is interpolated between boundaries. Weights sum to 1.",
+  "buckets": ["AAA", "AA", "A", "BBB", "BB", "B", "CCC"],
+  "factors": {
+    "ebitda_margin":     {"weight": 0.15, "higher_is_better": true,  "thresholds": [0.35, 0.28, 0.22, 0.16, 0.11, 0.06, 0.02]},
+    "debt_to_ebitda":    {"weight": 0.25, "higher_is_better": false, "thresholds": [0.5,  1.0,  1.75, 2.75, 4.0,  5.5,  7.5 ]},
+    "ebitda_to_interest":{"weight": 0.25, "higher_is_better": true,  "thresholds": [25.0, 15.0, 9.0,  5.0,  3.0,  1.5,  0.75]},
+    "ffo_to_debt":       {"weight": 0.20, "higher_is_better": true,  "thresholds": [0.80, 0.55, 0.35, 0.22, 0.12, 0.06, 0.02]},
+    "revenue_eur_m":     {"weight": 0.15, "higher_is_better": true,  "thresholds": [50000, 20000, 7500, 2500, 800, 250, 75]}
+  }
+}

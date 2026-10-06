@@ -1,0 +1,14 @@
+{
+  "borrower": "OpCo GmbH",
+  "standalone_rating": "BB+",
+  "supported_rating": "BBB",
+  "base_rate": 0.0255,
+  "spread_bps": 170.00000000000006,
+  "all_in_rate": 0.0425,
+  "comparable_n": 15,
+  "iqr_bps": [
+    134.5,
+    215.75
+  ],
+  "inside_range": true
+}
